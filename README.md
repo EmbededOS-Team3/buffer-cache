@@ -14,7 +14,7 @@
 $ dd if=/dev/zero of=diskfile bs=1024 count=102400
 ```
 
-2. Compile the source code
+3. Compile the source code
 
 ```
 $ gcc -pthread -o fifo buffer.c -lm
